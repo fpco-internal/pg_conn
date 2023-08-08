@@ -1,0 +1,12 @@
+[package]
+name = "pg_conn"
+version = "2023.8.5"
+edition = "2021"
+
+[dependencies]
+clap = { version = "*", features = ["derive", "env"] }
+percent-encoding = { version = "*" }
+
+[dev-dependencies]
+anyhow = { version = "*" }
+clap = { version = "*", features = ["derive"] }
